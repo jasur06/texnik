@@ -677,7 +677,7 @@ hr {
     }
     
     .head {
-        width: 370px;
+        width: 320px;
     }
 
     .nav-contacts {
@@ -701,7 +701,7 @@ hr {
     }
 
     .hero-img img {
-        width: 370px;
+        width: 320px;
     }
 
     .card-item  {
@@ -710,7 +710,7 @@ hr {
     }
 
     .card-list {
-        width: 370px;
+        width: 320px;
         margin-bottom: 30px;
     }
 
@@ -720,7 +720,7 @@ hr {
     }
 
     .pindwing {
-        width: 370px;
+        width: 320px;
         padding: 0;
         gap: 3px;
         padding: 0px 30px 0px 50px;
@@ -731,7 +731,7 @@ hr {
     .pindwings {
         display: flex;
         flex-direction: column;
-        width: 370px;
+        width: 320px;
         padding: 0;
         gap: 3px;
         padding: 0px 30px 0px 50px;
@@ -745,7 +745,7 @@ hr {
     }
 
     .new-title {
-        width: 370px;
+        width: 320px;
         margin-bottom: 20px;
     }
 
@@ -754,7 +754,7 @@ hr {
     }
 
     hr {
-        width: 370px;
+        width: 320px;
     }
 
 
@@ -765,11 +765,11 @@ hr {
     }
 
     .footer-list {
-        width: 370px;
+        width: 320px;
     }
     
     .footer-copyright {
-        width: 370px;
+        width: 320px;
         display: flex;
         flex-direction: column;
         text-align: center;
