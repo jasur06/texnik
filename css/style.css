@@ -658,6 +658,10 @@ hr {
         width: 370px;
     }
 
+    .card-list {
+        width: 370px;
+    }
+
   }
 
   @media only screen and (max-width: 576px) {
