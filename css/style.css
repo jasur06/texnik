@@ -589,6 +589,7 @@ hr {
     .head {
         display: flex;
         justify-content: space-between;
+        gap: 100px;
     }
 
     .nav-contacts {
@@ -601,11 +602,6 @@ hr {
 
     .header-bottom {
         position: relative;
-    }
-
-    .bottom-header {
-        position: absolute;
-        top: 530px;
     }
 
     .bottom-nav {
@@ -621,7 +617,7 @@ hr {
     }
 
     .hero-img img {
-        width: 320px;
+        width: 100%;
     }
   }
   
