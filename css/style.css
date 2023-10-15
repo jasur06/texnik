@@ -658,8 +658,14 @@ hr {
         width: 370px;
     }
 
+    .card-item  {
+        display: flex;
+        flex-direction: column;
+    }
+
     .card-list {
         width: 370px;
+        margin-bottom: 30px;
     }
 
   }
