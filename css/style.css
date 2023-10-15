@@ -597,10 +597,6 @@ hr {
         display: none;
     }
 
-    /* .nav-poisk {
-        display: none;
-    } */
-
     .bottom-nav {
         display: none;
     }
@@ -630,6 +626,20 @@ hr {
     .discount-data {
         display: flex;
         flex-direction: column;
+    }
+
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-copyright {
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
     }
 
   }
