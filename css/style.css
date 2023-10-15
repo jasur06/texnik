@@ -590,7 +590,7 @@ hr {
     }
 
     .head {
-        width: 720px;
+        width: 700px;
     }
 
     .nav-contacts {
@@ -614,11 +614,16 @@ hr {
     }
 
     .hero-img img {
-        width: 720px;
+        width: 700px;
+    }
+
+    .card-item {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .card-list {
-        width: 355px;
+        width: 345px;
         margin-bottom: 30px;
     }
 
