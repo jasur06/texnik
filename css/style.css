@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Exo+2&family=Montserrat:wght@300&family=Raleway:wght@400;700&display=swap');
 
 * {
-    box-sizing: border-box;
-}
-
-body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Exo 2', sans-serif;
 }
 
@@ -591,7 +588,7 @@ hr {
 
     .head {
         display: flex;
-        /* gap: 96px; */
+        justify-content: space-between;
     }
 
     .nav-contacts {
@@ -612,7 +609,7 @@ hr {
     }
 
     .bottom-nav {
-        /* width: 320px; */
+        display: none;
     }
 
     .bottom-list {
@@ -623,7 +620,7 @@ hr {
         display: none;
     }
 
-    .hero-img {
+    .hero-img img {
         width: 320px;
     }
   }
