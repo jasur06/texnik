@@ -673,7 +673,7 @@ hr {
 
   @media only screen and (max-width: 540px) {
     .container {
-        max-width: 370px;
+        max-width: 380px;
     }
     
     .head {
@@ -778,9 +778,4 @@ hr {
 
 
   }
-
-  /* @media only screen and (max-width: 576px) {
-    .container {
-      max-width: 1160px;
-    } */
 /* /responsive */
