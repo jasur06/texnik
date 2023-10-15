@@ -628,25 +628,23 @@ hr {
         flex-direction: column;
     }
 
-    /* .pindwing {
-        width: 690px;
-        padding: 0;
-        gap: 3px;
-        padding: 0px 30px 0px 50px;
-        border-radius: 8px;
+    .pindwing {
         margin-bottom: 20px;
     }
 
     .pindwings {
-        display: flex;
-        flex-direction: column;
-        width: 690px;
-        padding: 0;
-        gap: 3px;
-        padding: 0px 30px 0px 50px;
-        border-radius: 8px;
         margin-bottom: 20px;
-    } */
+    }
+
+    .card-news {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .new-title {
+        width: 690px;
+        margin-bottom: 20px;
+    }
 
     .footer-item {
         display: flex;
@@ -660,6 +658,14 @@ hr {
         flex-direction: column;
         text-align: center;
         margin-bottom: 20px;
+    }
+
+    .footer-call p {
+        display: inline-block;
+    }
+
+    .footer-list {
+        text-align: center;
     }
 
   }
