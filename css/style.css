@@ -630,10 +630,12 @@ hr {
 
     .pindwing {
         margin-bottom: 20px;
+        width: 690px;
     }
 
     .pindwings {
         margin-bottom: 20px;
+        width: 690px;
     }
 
     .card-news {
@@ -667,8 +669,7 @@ hr {
     .footer-list {
         text-align: center;
     }
-
-  }
+ }
 
   @media only screen and (max-width: 540px) {
     .container {
