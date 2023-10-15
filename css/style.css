@@ -602,7 +602,7 @@ hr {
       max-width: 540px;
     }
 
-    .head {
+    /* .head {
         display: flex;
         justify-content: space-between;
         gap: 100px;
@@ -634,7 +634,7 @@ hr {
 
     .hero-img img {
         width: 100%;
-    }
+    } */
   }
   
   @media only screen and (max-width: 576px) {
