@@ -590,7 +590,7 @@ hr {
     }
 
     .head {
-        width: 700px;
+        width: 690px;
     }
 
     .nav-contacts {
@@ -610,7 +610,7 @@ hr {
     }
 
     .hero-img img {
-        width: 700px;
+        width: 690px;
     }
 
     .card-item {
@@ -619,7 +619,7 @@ hr {
     }
 
     .card-list {
-        width: 345px;
+        width: 340px;
         margin-bottom: 30px;
     }
 
@@ -655,7 +655,7 @@ hr {
     }
 
     .footer-copyright {
-        width: 700px;
+        width: 690px;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -666,7 +666,7 @@ hr {
 
   @media only screen and (max-width: 540px) {
     .container {
-        max-width: 370px;
+        max-width: 690px;
     }
     
     .head {
