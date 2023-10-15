@@ -586,6 +586,46 @@ hr {
       max-width: 540px;
     }
 
+    /* .head {
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+    }
+
+    .nav-contacts {
+        display: none;
+    }
+
+    .nav-poisk {
+        display: none;
+    }
+
+    .header-bottom {
+        position: relative;
+    }
+
+    .bottom-nav {
+        display: none;
+    }
+
+    .bottom-list {
+        display: none;
+    }
+
+    .hero-menu {
+        display: none;
+    }
+
+    .hero-img img {
+        width: 100%;
+    } */
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .container {
+      max-width: 320px;
+    }
+
     .head {
         display: flex;
         justify-content: space-between;
@@ -619,13 +659,6 @@ hr {
     .hero-img img {
         width: 100%;
     }
-  }
-  
-  @media only screen and (max-width: 576px) {
-    .container {
-      max-width: 320px;
-    }
-
 
   }
 /* /responsive */
