@@ -65,16 +65,17 @@ nav {
     cursor: pointer;
 }
 
-.nav-menu ul svg:hover {
+/* .nav-menu ul svg:hover {
     background:red;
     transition: all .3s ease-in-out;
-}
+} */
 
 .nav-search {
     width: 107px;
     display: flex;
     align-items: center;
     gap: 12px;
+    padding: 5px;
     border: none;
     cursor: pointer;
 }
@@ -722,36 +723,3 @@ hr {
       max-width: 1160px;
     }
 /* /responsive */
-/* .head {
-    display: flex;
-    justify-content: space-between;
-    gap: 100px;
-}
-
-.nav-contacts {
-    display: none;
-}
-
-.nav-poisk {
-    display: none;
-}
-
-.header-bottom {
-    position: relative;
-}
-
-.bottom-nav {
-    display: none;
-}
-
-.bottom-list {
-    display: none;
-}
-
-.hero-menu {
-    display: none;
-}
-
-.hero-img img {
-    width: 100%;
-} */
