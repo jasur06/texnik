@@ -16,7 +16,7 @@ ul, li, p, h1, h2, h3, h4 {
 }
 
 .container {
-    width: 1300px;
+    width: 1320px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -151,6 +151,10 @@ nav {
     text-decoration: none;
     color: white;
 }
+
+.bottom-nav {
+    width: 310px;
+}
 /* /bottom nav */
 
 /* hero */
@@ -160,11 +164,11 @@ nav {
 
 .hero-data {
     display: flex;
-    gap: 20px;
+    justify-content:space-between;
 }
 
 .menu-title {
-    width: 290px;
+    width: 310px;
     padding: 12px 18px;
     gap:10px;
     display: flex;
@@ -219,6 +223,7 @@ nav {
 }
 
 .card-list {
+    width: 326px;
     padding: 20px;
     border-radius: 8px;
     border: 1px solid var(--card-border, #EAEAF0);
@@ -560,7 +565,7 @@ hr {
 }
 /* footer */
 
-/*  Responsive */
+ /* Responsive
 @media only screen and (max-width: 1400px) {
     .container {
         max-width: 1140px;
@@ -582,7 +587,7 @@ hr {
 }
 
 /* Media devices (tablets, 576px and up)  */
-@media only screen and (max-width: 768px) {
+/* @media only screen and (min-width: 768px) {
     .container {
         min-width: 540px
     }
@@ -608,56 +613,41 @@ hr {
         width: 720px;
     }
 
-    .card-swing {
-        width: 324px;
-    }
-
-    .card-item {
-        /* width: 365px; */
-        margin-bottom: 20px;
-        display: flex;
-        gap: 40px;
-        flex-wrap: wrap;
-    }
-
-    .card-list {
-        margin-bottom: 20px;
-    }
-
-    .product-main {
-        flex-wrap: wrap;
-    }
-
     .bottom-list {
         display: none;
         margin: 0;
     }
 
-    .hero-img img {
-        /* width: 720px; */
-        padding: 0;
-        background-size: 100%;
-        overflow: hidden;
+
+    .card-item {
+        /* width: 365px; */
+        margin-bottom: 20px;
+        display: flex;
+        /* gap: 40px; */
+        flex-wrap: wrap;
     }
+
+    /* .card-list {
+        width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .card-swing {
+        width: 324px;
+    }
+
+
+    .product-main {
+        flex-wrap: wrap;
+    }
+
 
     .card-item a{
         margin-bottom: 20px;
     }
 
-        .card-item a:nth-last-child(2n) {
-            flex-wrap:wrap;
-        }
-
-    .card-list {
-        margin-bottom: 20px;
-    }
-
-    .card-list {
-        width: 300px;
-    }
-
-    .card-swing {
-        width: 240px;
+    .card-item a:nth-last-child(2n) {
+        flex-wrap:wrap;
     }
 
     .discount-data {
@@ -675,4 +665,4 @@ hr {
         flex-wrap: wrap;
     }
 }
-/* /Responsive */
+/Responsive */ */
