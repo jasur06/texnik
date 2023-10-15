@@ -409,6 +409,22 @@ del {
     font-weight: 700;
     line-height: 120%; 
 }
+
+.pindwings {
+    display: flex;
+    align-items: center;
+    gap:120px;
+    padding: 0px 30px 0px 50px;
+    border-radius: 8px;
+    background: var(--light-blue, #EDF2F6);
+}
+
+.pindwings p {
+    color: var(--text-main, #070C11);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 120%; 
+}
 /* /discount */
 
 /* segways */
@@ -668,6 +684,66 @@ hr {
         margin-bottom: 30px;
     }
 
+    .discount-data {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pindwing {
+        width: 370px;
+        padding: 0;
+        gap: 3px;
+        padding: 0px 30px 0px 50px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .pindwings {
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+        padding: 0;
+        gap: 3px;
+        padding: 0px 30px 0px 50px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .card-news {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .new-title {
+        width: 370px;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    hr {
+        width: 370px;
+    }
+    
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-list {
+        width: 370px;
+    }
+    
+    .footer-copyright {
+        width: 370px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+    }
   }
 
   @media only screen and (max-width: 576px) {
