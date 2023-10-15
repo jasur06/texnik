@@ -602,6 +602,14 @@ hr {
       max-width: 540px;
     }
 
+    
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .container {
+      max-width: 320px;
+    }
+    
     .head {
         width: 370px;
     }
@@ -631,7 +639,7 @@ hr {
     }
 
     .hero-img img {
-        width: 400px;
+        width: 370px;
     }
 
     .card-item  {
@@ -705,13 +713,6 @@ hr {
         margin-bottom: 20px;
     }
 
-  }
-  
-  @media only screen and (max-width: 576px) {
-    .container {
-      max-width: 320px;
-    }
-
 
   }
 
@@ -720,7 +721,7 @@ hr {
       max-width: 1160px;
     }
 /* /responsive */
-.head {
+/* .head {
     display: flex;
     justify-content: space-between;
     gap: 100px;
@@ -752,4 +753,4 @@ hr {
 
 .hero-img img {
     width: 100%;
-}
+} */
