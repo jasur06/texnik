@@ -7,6 +7,10 @@
     gap: 15px;
 }
 
+.news-header a {
+    text-decoration: none;
+}
+
 .new-head {
     margin-bottom: 30px;
     color: var(--text-main, #070C11);

@@ -65,11 +65,6 @@ nav {
     cursor: pointer;
 }
 
-/* .nav-menu ul svg:hover {
-    background:red;
-    transition: all .3s ease-in-out;
-} */
-
 .nav-search {
     width: 107px;
     display: flex;
@@ -194,8 +189,8 @@ nav {
 .card-title {
     margin-bottom: 40px;
     display: flex;
+    align-items: center;
     gap: 30px;
-    align-items:end;
 }
 
 .card-title h2 {
@@ -214,14 +209,16 @@ nav {
 
 .card-item {
     display: flex;
+    gap: 10px;
 }
 
 .card-item a {
     text-decoration: none;
+    display: flex;
 }
 
 .card-list {
-    width: 325px;
+    width: 317px;
     padding: 20px;
     border-radius: 8px;
     border: 1px solid var(--card-border, #EAEAF0);
@@ -253,11 +250,6 @@ nav {
     cursor: pointer;
 }
 
-.card-novinka:hover {
-    background-color: #243C53;
-    transition: all .2s linear;
-}
-
 .card-prodaj {
     position: absolute;
     bottom:170px;
@@ -271,11 +263,6 @@ nav {
     font-weight: 500;
     line-height: 130%;
     cursor: pointer;
-}
-
-.card-prodaj:hover {
-    background-color:#622ea0;
-    transition: all .2s linear;
 }
 
 .card-sigveli {
@@ -412,6 +399,7 @@ del {
 }
 
 .pindwings {
+    width: 630px;
     display: flex;
     align-items: center;
     gap:120px;
@@ -577,6 +565,10 @@ hr {
     justify-content: space-between;
     align-items: center;
 }
+
+.footer-icon a {
+    text-decoration: none;
+}
 /* footer */
 
 /* Responsive */
@@ -596,19 +588,13 @@ hr {
     .container {
       max-width: 720px;
     }
-  }
-  
-   /* @media only screen and (max-width: 768px) {
-    .container {
-      max-width: 540px;
-    } 
 
-    
+
   }
-   */
+
   @media only screen and (max-width: 768px) {
     .container {
-        max-width: 540px;
+        max-width: 320px;
     }
     
     .head {

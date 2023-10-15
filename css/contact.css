@@ -10,6 +10,10 @@ header {
     gap: 15px;
 }
 
+.contact-glavni a {
+    text-decoration: none;
+}
+
 .contact-header {
     margin-bottom: 30px;    
 }
