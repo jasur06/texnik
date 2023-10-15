@@ -588,12 +588,6 @@ hr {
     .container {
       max-width: 540px;
     }
-  }
-  
-  @media only screen and (max-width: 576px) {
-    .container {
-      max-width: 320px;
-    }
 
     .head {
         display: flex;
@@ -619,7 +613,6 @@ hr {
 
     .bottom-nav {
         width: 320px;
-        position: fixed;
     }
 
     .bottom-list {
@@ -633,6 +626,14 @@ hr {
     .hero-img {
         width: 320px;
     }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .container {
+      max-width: 320px;
+    }
+
+
   }
 /* /responsive */
   
