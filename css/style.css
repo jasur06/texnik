@@ -223,7 +223,7 @@ nav {
 }
 
 .card-list {
-    width: 326px;
+    width: 325px;
     padding: 20px;
     border-radius: 8px;
     border: 1px solid var(--card-border, #EAEAF0);
@@ -565,104 +565,57 @@ hr {
 }
 /* footer */
 
- /* Responsive
+/* Responsive */
 @media only screen and (max-width: 1400px) {
     .container {
-        max-width: 1140px;
+      max-width: 1140px;
     }
-}
-
-@media only screen and (max-width: 1200px) {
+  }
+  
+  @media only screen and (max-width: 1200px) {
     .container {
-        max-width: 960px;
+      max-width: 960px;
     }
-}
-
-@media only screen and (max-width: 992px) {
+  }
+  
+  @media only screen and (max-width: 992px) {
     .container {
-        max-width: 720px;
+      max-width: 720px;
     }
-
-    
-}
-
-/* Media devices (tablets, 576px and up)  */
-/* @media only screen and (min-width: 768px) {
+  }
+  
+  @media only screen and (max-width: 768px) {
     .container {
-        min-width: 540px
+      max-width: 540px;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .container {
+      max-width: 320px;
     }
 
     .head {
         display: flex;
-        gap: 1;
+        gap: 96px;
     }
 
-    .nav-contacts ul {
+    .nav-contacts {
         display: none;
+    }
+
+    .nav-poisk {
+        display: none;
+    }
+
+    .header-bottom {
+        position: relative;
     }
 
     .bottom-header {
-        display: none;
+        position: absolute;
+        top: 444px;
     }
-
-    .hero-menu {
-        display: none;
-    }
-
-    .hero-img img {
-        width: 720px;
-    }
-
-    .bottom-list {
-        display: none;
-        margin: 0;
-    }
-
-
-    .card-item {
-        /* width: 365px; */
-        margin-bottom: 20px;
-        display: flex;
-        /* gap: 40px; */
-        flex-wrap: wrap;
-    }
-
-    /* .card-list {
-        width: 350px;
-        margin-bottom: 20px;
-    }
-
-    .card-swing {
-        width: 324px;
-    }
-
-
-    .product-main {
-        flex-wrap: wrap;
-    }
-
-
-    .card-item a{
-        margin-bottom: 20px;
-    }
-
-    .card-item a:nth-last-child(2n) {
-        flex-wrap:wrap;
-    }
-
-    .discount-data {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    .pindwing:nth-child(2) {
-        padding: 20px 30px;
-    }
-
-    .footer-item {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-/Responsive */ */
+  }
+/* /responsive */
+  
