@@ -614,7 +614,24 @@ hr {
 
     .bottom-header {
         position: absolute;
-        top: 500px;
+        top: 530px;
+    }
+
+    .bottom-nav {
+        width: 320px;
+        position: fixed;
+    }
+
+    .bottom-list {
+        display: none;
+    }
+
+    .hero-menu {
+        display: none;
+    }
+
+    .hero-img {
+        width: 320px;
     }
   }
 /* /responsive */
