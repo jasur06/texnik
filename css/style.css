@@ -695,6 +695,7 @@ hr {
         width: 370px;
     }
 
+
     .footer-item {
         display: flex;
         flex-direction: column;
@@ -702,11 +703,11 @@ hr {
     }
 
     .footer-list {
-        width: 370px;
+        width: 350px;
     }
     
     .footer-copyright {
-        width: 370px;
+        width: 350px;
         display: flex;
         flex-direction: column;
         text-align: center;
