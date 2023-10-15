@@ -589,16 +589,8 @@ hr {
       max-width: 720px;
     }
 
-
-  }
-
-  @media only screen and (max-width: 540px) {
-    .container {
-        max-width: 320px;
-    }
-    
     .head {
-        width: 320px;
+        width: 720px;
     }
 
     .nav-contacts {
@@ -607,10 +599,6 @@ hr {
 
     .nav-poisk {
         display: none;
-    }
-
-    .header-bottom {
-        position: relative;
     }
 
     .bottom-nav {
@@ -626,7 +614,52 @@ hr {
     }
 
     .hero-img img {
-        width: 320px;
+        width: 720px;
+    }
+
+    .card-list {
+        width: 355px;
+        margin-bottom: 30px;
+    }
+
+    .discount-data {
+        display: flex;
+        flex-direction: column;
+    }
+
+  }
+
+  @media only screen and (max-width: 540px) {
+    .container {
+        max-width: 370px;
+    }
+    
+    .head {
+        width: 370px;
+    }
+
+    .nav-contacts {
+        display: none;
+    }
+
+    .nav-poisk {
+        display: none;
+    }
+
+    .bottom-nav {
+        display: none;
+    }
+
+    .bottom-list {
+        display: none;
+    }
+
+    .hero-menu {
+        display: none;
+    }
+
+    .hero-img img {
+        width: 370px;
     }
 
     .card-item  {
@@ -635,7 +668,7 @@ hr {
     }
 
     .card-list {
-        width: 320px;
+        width: 370px;
         margin-bottom: 30px;
     }
 
@@ -645,7 +678,7 @@ hr {
     }
 
     .pindwing {
-        width: 320px;
+        width: 370px;
         padding: 0;
         gap: 3px;
         padding: 0px 30px 0px 50px;
@@ -656,7 +689,7 @@ hr {
     .pindwings {
         display: flex;
         flex-direction: column;
-        width: 320px;
+        width: 370px;
         padding: 0;
         gap: 3px;
         padding: 0px 30px 0px 50px;
@@ -670,7 +703,7 @@ hr {
     }
 
     .new-title {
-        width: 320px;
+        width: 370px;
         margin-bottom: 20px;
     }
 
@@ -679,7 +712,7 @@ hr {
     }
 
     hr {
-        width: 320px;
+        width: 370px;
     }
 
 
@@ -690,11 +723,11 @@ hr {
     }
 
     .footer-list {
-        width: 320px;
+        width: 370px;
     }
     
     .footer-copyright {
-        width: 320px;
+        width: 370px;
         display: flex;
         flex-direction: column;
         text-align: center;
