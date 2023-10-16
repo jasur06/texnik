@@ -673,7 +673,7 @@ hr {
 
   @media only screen and (max-width: 540px) {
     .container {
-        max-width: 365px;
+        max-width: 380px;
     }
     
     .head {
@@ -749,32 +749,22 @@ hr {
         margin-bottom: 20px;
     }
 
-    /* footer {
-        padding: 20px;
-    } */
-
     hr {
         width: 370px;
     }
 
 
     footer {
-        width: 380px;
+        width: 370px;
         padding: 50px;
       }
 
-      /* .footer-data {
-        display: flex;
-        justify-content: center;
-      } */
-
-      .footer-item{
+      .footer-item {
         display: flex;
         justify-content: center;
       }
     
       .footer-list {
-        /* width: 370px; */
         display: flex;
         flex-direction: column;
         text-align: center;
