@@ -749,24 +749,36 @@ hr {
         margin-bottom: 20px;
     }
 
-    footer {
+    /* footer {
         padding: 20px;
-    }
+    } */
 
     hr {
         width: 370px;
     }
 
 
-    .footer-item {
+    footer {
+        width: 380px;
+        padding: 50px;
+      }
+
+      /* .footer-data {
+        display: flex;
+        justify-content: center;
+      } */
+
+      .footer-item{
+        display: flex;
+        justify-content: center;
+      }
+    
+      .footer-list {
+        /* width: 370px; */
         display: flex;
         flex-direction: column;
-        justify-content: center;
-    }
-
-    .footer-list {
-        width: 370px;
-    }
+        text-align: center;
+      }
     
     .footer-copyright {
         width: 370px;
