@@ -673,7 +673,7 @@ hr {
 
   @media only screen and (max-width: 540px) {
     .container {
-        max-width: 380px;
+        max-width: 370px;
     }
     
     .head {
