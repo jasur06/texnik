@@ -673,7 +673,7 @@ hr {
 
   @media only screen and (max-width: 540px) {
     .container {
-        max-width: 370px;
+        max-width: 390px;
     }
     
     .head {
@@ -752,10 +752,6 @@ hr {
     hr {
         width: 370px;
     }
-
-
-    footer {
-      }
 
       .footer-item {
         display: flex;
