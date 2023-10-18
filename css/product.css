@@ -309,8 +309,12 @@
        gap: 20px;
     }
 
-    .product-footer {
+    .product-social{
         width: 370px;
+    }
+
+    .product-footer {
+        width: 360px;
         flex-wrap: wrap;
         gap: 30px;
     }
