@@ -746,16 +746,22 @@ hr {
         width: 370px;
     }
 
+    .footer-data {
+        padding: 20px;
+    }
+
     .footer-item {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        gap: 80px;
       }
     
       .footer-list {
         display: flex;
         flex-direction: column;
         text-align: center;
+        padding: 0;
       }
     
     .footer-copyright {
