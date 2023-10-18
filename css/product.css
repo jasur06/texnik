@@ -262,8 +262,17 @@
     }
 
     .product-img {
-        margin-top: 0px;
+        margin-top: 200px;
+    }
+
+    .product-img img {
         width: 370px;
+    }
+
+    .product-header:nth-child(2) {
+        color: var(--text-grey, #838688);
+        font-family: Exo 2;
+        font-size: 16px;
     }
 
     .product-left {
@@ -272,12 +281,41 @@
 
     .right-header {
         position: absolute;
-        bottom:800px;
+        bottom: 810px;
         color: var(--text-main, #070C11);
-        font-family: Exo 2;
         font-style: normal;
-        font-weight: 700;
-        line-height: 130%; 
+        font-weight: 600;
+        font-style: 20px;
+    }
+
+    .product-title {
+        flex-direction: column;
+    }
+
+    .product-card {
+        width: 370px;
+    }
+
+    .product-item {
+        flex-direction: column;
+    }
+
+    .product-price {
+        margin-bottom: 20px;
+    }
+
+    .product-btn {
+       flex-direction: column-reverse;
+       gap: 20px;
+    }
+
+    .product-footer {
+        width: 370px;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .product-dostavki {
     }
 
   }
