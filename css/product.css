@@ -237,15 +237,52 @@
 
   @media only screen and (max-width: 540px) {
     .container {
-        max-width: 365px;
+        max-width: 390px;
     }
     
     .head {
         width: 370px;
     }
 
-    .product-main {
+    .nav-menu svg {
         display: none;
+    }
+
+    .nav-search {
+        display: none;
+    }
+
+    .product-header { 
+        flex-wrap: wrap;
+    }
+
+    .product-main {
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .product-img {
+        margin-top: 100px;
+        width: 370px;
+    }
+
+    .product-left {
+        margin-bottom: 25px;
+    }
+
+    .right-header {
+        position: absolute;
+        bottom:800px;
+        color: var(--text-main, #070C11);
+        font-family: Exo 2;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%; 
+    }
+
+    .product-item {
+        display: flex;
+        flex-wrap: wrap;
     }
 
   }

@@ -648,14 +648,7 @@ hr {
         margin-bottom: 20px;
     }
 
-    .footer-item {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
     .footer-copyright {
-        width: 690px;
         display: flex;
         flex-direction: column;
         text-align: center;
