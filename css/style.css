@@ -746,9 +746,10 @@ hr {
         width: 370px;
     }
 
-      .footer-item {
+    .footer-item {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
       }
     
       .footer-list {
