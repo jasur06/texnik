@@ -133,4 +133,9 @@
         flex-direction: column;
         text-align: center;
     }
+
+    .news-body img {
+        width: 280px;
+        height: 200px;
+    }
   }
