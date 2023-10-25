@@ -211,13 +211,183 @@
 .katolig-search {
   display: flex;
   align-items: center;
+}
+
+.btn-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   grid-area: 15px;
   padding: 10px 20px;
   border-radius: 4px;
   border: 1px solid var(--card-border, #eaeaf0);
 }
 
+.btn-search-one {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #FFF;
+  grid-area: 15px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-radius: 4px;
+background: var(--blue, #4878A6);
+}
+
 .katolig {
   gap: 5px;
   flex-wrap: wrap;
 }
+
+/* Responsive */
+@media only screen and (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  .btn-search-one {
+    display: none;
+  }
+
+  .katolig-search {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .head {
+      width: 690px;
+  }
+
+  .nav-contacts {
+      display: none;
+  }
+
+  .bottom-nav {
+      display: none;
+  }
+
+  .bottom-list {
+      display: none;
+  }
+
+  .hero-menu {
+      display: none;
+  }
+
+  .hero-img img {
+      width: 690px;
+  }
+
+  .katolig-menu {
+    display: none;
+  }
+
+  .card-header {
+    display: none;
+  }
+
+  .katolig-search {
+    display: flex;
+    gap: 347px;
+  }
+
+  .footer-copyright {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .footer-call p {
+      display: inline-block;
+  }
+
+  .footer-list {
+      text-align: center;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .container {
+      max-width: 390px;
+  }
+  
+  .head {
+      width: 370px;
+  }
+
+  .nav-contacts {
+      display: none;
+  }
+
+  .nav-poisk {
+      display: none;
+  }
+
+  .bottom-nav {
+      display: none;
+  }
+
+  .bottom-list {
+      display: none;
+  }
+
+  .hero-menu {
+      display: none;
+  }
+
+  .katolig-menu {
+    display: none;
+  }
+
+  .card-header {
+    display: none;
+  }
+  
+  .katolig-search {
+    display: flex;
+    gap: 30px;
+  }
+
+  hr {
+      width: 370px;
+  }
+
+  .footer-item {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 80px;
+    }
+  
+    .footer-list {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 10px;
+    }
+  
+  .footer-copyright {
+      width: 370px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+
+}
+/* /responsive */
