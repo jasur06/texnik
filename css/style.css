@@ -706,10 +706,6 @@ hr {
         background: var(--dark-blue, #2A5275);
         z-index:100000000;
     }
-
-    .hero-menu{
-    }
-
     
     .head {
         width: 370px;
