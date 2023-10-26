@@ -593,6 +593,7 @@ hr {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    border:none;
 }
 
 .menu-list button:hover {
