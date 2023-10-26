@@ -582,12 +582,9 @@ hr {
     list-style: none;
 }
 
-.menu-list li {
-    width: 64px;
-}
-
 .menu-list button {
-    padding: 10px 8px 9px 8px;
+    width: 74px;
+    padding: 10px 12px 9px 12px;
     background-color: #2A5275;
     color: #FFF;
     text-align: center;
