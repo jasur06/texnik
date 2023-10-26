@@ -246,10 +246,6 @@ background: var(--blue, #4878A6);
     max-width: 1140px;
   }
 
-  .btn-search-one {
-    display: none;
-  }
-
   .katolig-search {
     display: none;
   }
@@ -358,7 +354,20 @@ background: var(--blue, #4878A6);
   
   .katolig-search {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
+  }
+
+  .btn-search-one {
+    width: 370px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-search {
+    width: 370px;
+    display: flex;
+    justify-content: center;
   }
 
   hr {
