@@ -700,9 +700,8 @@ hr {
     .modal{
         position: fixed;  
         top: 10px;
-        width: 100%;  
         padding: 20px;
-        background-color: red;
+        background: var(--dark-blue, #2A5275);
         z-index:100000000;
     }
 
@@ -729,6 +728,10 @@ hr {
 
     .bottom-list {
         display: none;
+    }
+
+    .menu-title {
+        width: 330px;
     }
 
     .active{
