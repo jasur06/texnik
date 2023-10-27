@@ -580,6 +580,7 @@ hr {
     display: none;
     align-items:center;
     list-style: none;
+    transition: all 0.7s ease;
 }
 
 .menu-list button {
@@ -587,12 +588,8 @@ hr {
     padding: 10px 12px 9px 12px;
     background-color: #2A5275;
     color: #FFF;
-    text-align: center;
-    font-family: Exo 2;
     font-size: 13px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     border:none;
 }
 
@@ -730,13 +727,10 @@ hr {
 
     .menu-title {
         width: 330px;
+        padding: 20px 30px;
     }
 
     .active{
-        display: block;
-    }
-
-    .close{
         display: block;
     }
 
