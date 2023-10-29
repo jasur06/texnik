@@ -263,6 +263,9 @@ iframe {
     .nav-contacts {
         display: none;
     }
+    .nav-contacts ul {
+        display: none;
+    }
 
     .nav-poisk {
         display: none;
