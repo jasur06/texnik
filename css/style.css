@@ -674,6 +674,13 @@ hr {
         margin-bottom: 20px;
     }
 
+    .footer-item {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* gap: 80px; */
+    }
+
     .footer-copyright {
         display: flex;
         flex-direction: column;
@@ -736,6 +743,7 @@ hr {
 
     .hero-img img {
         width: 370px;
+        height: 280px;
     }
 
     .card-item  {
